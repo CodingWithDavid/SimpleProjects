@@ -21,13 +21,13 @@ a.	With Visual Code you will need to install the C# extensions
 
 ## What's in the App
 
-1. Expanding Cords 
+1. Expanding Cords  
     a. A nice visual that could be used for FAQ, testimonials or other list of items
-2. Progress Steps
+2. Progress Steps  
     a. Show progress through a wizard or long form
-3. Rotating Nav 
+3. Rotating Nav   
     a. Cool project that rotates the main view to show a nav
-4. Hidden Search box
+4. Hidden Search box  
     a. Expands an input that allows you to enter in search text
 
 
