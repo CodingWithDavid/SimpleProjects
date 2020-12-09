@@ -1,0 +1,34 @@
+﻿@page "/"
+
+<div class=" search @searchClass">
+    <input type="text" class="input" @ref="searchBox" placeholder="Search...">
+    <button class="btn" @onclick="OpenSearch">
+        <i class="fas fa-search"></i>
+    </button>
+</div>
+
+@code
+{
+    private string searchClass = "";
+    private ElementReference searchBox;
+
+    private void OpenSearch()
+    {
+        if (string.IsNullOrEmpty(searchClass))
+        {
+            searchClass = "active";
+            searchBox.FocusAsync();
+        }
+        else
+        {
+            searchClass = string.Empty;
+        }
+    }
+
+
+
+    public async Task Focus(ElementReference textInput)
+    {
+        await textInput.FocusAsync();
+    }
+}
