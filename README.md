@@ -29,6 +29,8 @@ a.	With Visual Code you will need to install the C# extensions
     a. Cool project that rotates the main view to show a nav
 4. Hidden Search box  
     a. Expands an input that allows you to enter in search text
+ 5. Blurry Landing Page  
+    a. A nice full page progress bar that goes from dim to full visability
 
 
 
